@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+}
+
+header{
+	background-color: #fff;
+}
+
+.hero {
+  background: url("../img/Services-Title-Image.jpg") center no-repeat;
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: relative;
+  background-size: cover;
+}
+
+.background-overlay:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-title {
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.hero-title h1 {
+  width: 100%;
+  padding: 100px 15px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.hero-title h1{
+	padding-top: 100px;
+}
+
+#icons{
+	font-weight: 500;
+	align-content: center;
+}
+
+#icons h1{
+	padding: 0px 50px;
+	font-weight: bolder;
+	color: #99C3D5;
+}
+
+.infor{
+    padding-top: 30px;
+}
+
+#icons i{
+	font-size: 150px;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+#icons{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#icons p{
+	color: #e0e0e0;
+}
+
+#icons .check i{
+	font-size: 40px;
+    color: #53c3c9;
+}
+
+#info{
+	text-align: center;
+	background-color: #f7f7f7;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#info h1{
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+
+#info h7{
+	padding-bottom: 80px;
+	color: #C5C5C5;
+}
+
+#info h5{
+	font-weight: bolder;
+	padding-top: 30px;
+}
+
+#info p{
+	font-size: 15px;
+	color: #C5C5C5;
+}
+
+#features{
+	text-align: left;
+}
+
+
+#features p{
+	font-size: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#features h3{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.woocomerce{
+    background-color: #d8d8d8;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	color: #FFFFFF;
+}
+
+.woocomerce h3{
+	font-weight: bolder;
+}
+
+.fully{
+    background-color: #3d4248;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	color: #FFFFFF;
+}
+
+.fully h3{
+	font-weight: bolder;
+}
+
+.pixelperfect{
+    background-color: #f0f0f0;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.pixelperfect h3{
+	font-weight: bolder;
+}
+
+.subscribe{
+	color: #FFFFFF;
+	padding-right: 280px;
+	padding-top: 80px;
+	text-align: left;
+}
+
+h4{
+	font-size: 40px;
+	color: #fff;
+	text-align: left;
+	padding-left: 280px;
+	font-weight: bolder;
+	padding-top: 80px;
+}
+
+.social{
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-bottom: 80px;
+}
+
+footer{
+    background-color: var(--fondo-footer);
+    color: var(--color-footer);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.form-control{
+	background-color: #404750;
+	color: #BBBBBB;
+}
+
+.footer{
+	background-color: #404750;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
